@@ -1,0 +1,26 @@
+.task-planner-container .input-group {
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+  gap: 20px; /* Adjust spacing as needed */
+}
+
+.task-planner-container label {
+  display: flex;
+  align-items: center; /* Align label text and input field vertically */
+  gap: 5px; /* Spacing between label text and input field */
+}
+
+.task-planner-container input {
+  padding: 5px;
+}
+
+.button-disabled {
+  background-color: red;
+  color: white;
+  cursor: not-allowed;
+}
+
+.button-enabled {
+  background-color: green;
+  color: white;
+}
